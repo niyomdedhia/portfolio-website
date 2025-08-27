@@ -245,7 +245,7 @@ const Portfolio = () => {
                 <div className="relative w-full h-full bg-gradient-to-br from-gray-700 to-gray-800 rounded-full border-4 border-purple-500/50 flex items-center justify-center text-6xl group-hover:scale-105 transition-transform duration-500 overflow-hidden">
                   {/* Profile picture */}
                   <img 
-                    src="\profilepic.jpeg" 
+                    src="/profilepic.jpeg" 
                     alt="Niyom Dedhia" 
                     className="w-full h-full object-cover rounded-full"
                     onError={(e) => {
